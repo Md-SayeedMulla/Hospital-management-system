@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+</head>
+<body>
+    <header class="header">
+    
+        <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> <strong></strong>medical </a>
+         <ul>
+        <nav class="navbar">
+            <a href="hospital.php" class="btn-"> home <span ></span> </a>
+      
+            <a href="hospital.php">about</a>
+            <a href="services.html">services</a>
+            <a href="hospital.php">appointment</a>
+            <a href="review.html">review</a>
+        
+        </nav>
+    </ul>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    
+    </header>
+    
+    <H1>HEALTH CHECKUP</H1>
+    <section class="services" id="services">
+<br>
+<br>
+<br>
+<H1>HEALTH CHECKUP</H1>
+        <h1 class="heading"> OUR <span>SERVICES</span> </h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <i class=""></i>
+                <h3>executive Health Checkup</h3>
+                <p>rs4000</p>
+            </div>
+    
+            <div class="box">
+                <i ></i>
+                <h3>Sr. Citizen Health Checkup</h3>
+                <p>rs 3000</p>
+            </div>
+    
+            <div class="box">
+                <i class=""></i>
+                <h3>Diabetes Health Checkup</h3>
+                <p>rs2000</p>
+            </div>
+    
+            <div class="box">
+                <i class=""></i>
+                <h3>Women Health checkup</h3>
+                <p>rs2000</p>
+            </div>
+    
+            <div class="box">
+                <i class=""></i>
+                <h3>General Health checkup</h3>
+                <p>rs1500</p>
+            </div>
+    
+            <div class="box">
+                <i class=""></i>
+                <h3>Basic child Health checkup</h3>
+                <p>rs700</p>
+            </div>
+    
+        </div>
+    
+    </section>
+    <style>
+        :root{
+        --green:#0f70be;
+        --black:#444444a8;
+        --light-color:#111;
+        --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+        --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+        --border:.2rem solid var(--green);
+    }
+    
+    *{
+        font-family: 'Poppins', sans-serif;
+        margin:0; padding: 0;
+        box-sizing: border-box;
+        outline: none; border: none;
+        text-transform: capitalize;
+        transition: all .2s ease-out;
+        text-decoration: none;
+    }
+    
+    html{
+        font-size: 62.5%;
+        overflow-x: hidden;
+        scroll-padding-top: 7rem;
+        scroll-behavior: smooth;
+    }
+    
+    section{
+        padding:2rem 9%;
+    }
+    
+    section:nth-child(even){
+        background: #f5f5f5;
+    }
+    
+    .heading{
+        text-align: center;
+        padding-bottom: 2rem;
+        text-shadow: var(--text-shadow);
+        text-transform: uppercase;
+        color:var(--black);
+        font-size: 5rem;
+        letter-spacing: .4rem;
+    }
+    
+    .heading span{
+        text-transform: uppercase;
+        color:var(--green);
+    }
+    
+    
+    
+    .btn span{
+        padding:.7rem 1rem;
+        border-radius: .5rem;
+        background: var(--green);
+        color:#fff;
+        margin-left: .5rem;
+    }
+    
+    .btn:hover{
+        background: var(--green);
+        color:#fff;
+    }
+    
+    .btn:hover span{
+        color: var(--green);
+        background:#fff;
+        margin-left: 1rem;
+    }
+    .header{
+        padding:2rem 9%;
+        position: fixed;
+        top:0; left: 0; right: 0;
+        z-index: 1000;
+        box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: var(--green);
+    }
+    
+    .header .logo{
+        font-size: 2.5rem;
+        color: white;
+    }
+    
+    .header .logo i{
+        color: #c0392b;
+    }
+    
+    .header .navbar a{
+        font-size: 1.7rem;
+        color: rgb(21, 19, 19);
+        margin-left: 2rem;
+    }
+    
+    .header .navbar a:hover{
+        color:red;
+    }
+    
+    #menu-btn{
+        font-size: 2.5rem;
+        border-radius: .5rem;
+        background:blue;
+        color:#332f2f;
+        padding: 1rem 1.5rem;
+        cursor: pointer;
+        display: none;
+    }
+
+
+
+
+
+
+
+
+        body{
+            background-color:antiquewhite;
+        }
+        #head{
+             color: red  ;
+        }
+        :root{
+    --green:#0f70be;
+    --black:#444444a8;
+    --light-color:#111;
+    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --border:.2rem solid var(--green);
+}
+        
+.services .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:2rem;
+}
+
+.services .box-container .box{
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 2.5rem;
+}
+
+.services .box-container .box i{
+    color: blue;
+    font-size: 5rem;
+    padding-bottom: .5rem;
+}
+
+.services .box-container .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    padding:1rem 0;
+}
+
+.services .box-container .box p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+.btn{border: 1px solid black;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    font: bolder;
+    text-emphasis-color: red
+    ;
+
+}
+    </style>
+    <div>
+    </div>
+</body>
+</html>
